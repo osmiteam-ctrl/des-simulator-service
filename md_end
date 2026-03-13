@@ -1,0 +1,12 @@
+$md
+   temp=298.15 # in K
+   time= 0.1 # in ps
+   dump= 1.0  # in fs
+   step=  0.5  # in fs
+   velo=false
+   nvt =true
+   hmass=4
+   shake=2
+   sccacc=2.0
+$end
+

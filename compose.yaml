@@ -1,0 +1,14 @@
+services:
+  des-sim-api:
+    image: des-sim-api
+    build:
+      context: .
+      dockerfile: Containerfile
+    ports:
+      - "65502:65502"
+    volumes:
+      - ./data:/data
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+
