@@ -14,7 +14,7 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BASE_URL="${BASE_URL:-http://localhost:65502}"
 
-JSON_EXAMPLE="$ROOT_DIR/examples/json/system_example.json"
+JSON_EXAMPLE="$ROOT_DIR/example/example.json"
 if [[ ! -f "$JSON_EXAMPLE" ]]; then
   echo "Не найден файл примера системы: $JSON_EXAMPLE" >&2
   exit 1

@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Glutamin",
+      "smiles": "N[C@@H](CCC(O)=O)C(O)=O",
+      "count": 1
+    },
+    {
+      "name": "Water",
+      "smiles": "O",
+      "count": 1
+    },
+    {
+      "name": "Methanol",
+      "smiles": "CO",
+      "count": 1
+    }
+  ]
